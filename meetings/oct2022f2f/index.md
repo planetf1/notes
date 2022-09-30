@@ -5,3 +5,6 @@
 * [Containers/k8s](containers.md)
 * [Release](release.md)
 * [Version 4](version4.md)
+* [Certificates](certificates.md)
+* [Code Scans](codescans.md)
+* [Dojos](dojos.md)
