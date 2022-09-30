@@ -13,6 +13,12 @@ Since the root certificate authority is not trusted (ie default), cert validatio
 
 Certificates also need to include the HOSTNAME - which is not known until deployment time (other than localhost!)
 
+## Issues
+
+* #6807 perm format for truststore (jupyter)
+* #6351 certs for ui chassis
+* #6326 self signed certs expired
+* 
 ## Todos
 * Ensure user can easily replace certs (docs, configuration)
 * add mechanism to dynamically generate certs

@@ -8,3 +8,8 @@
 * [Certificates](certificates.md)
 * [Code Scans](codescans.md)
 * [Dojos](dojos.md)
+* [Repos](repos.md)
+* [CTS](cts.md)
+* [Connectors](connectors.md)
+
+

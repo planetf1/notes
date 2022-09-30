@@ -52,6 +52,20 @@ Tools vary in their capabilities including language
 * no PR injection
 * common reporting across many LF products
 
+## SBOMs
+* SBOMS for egeria #6621
+
+## CII badge/openssf
+* #6423 silver/gold badge
+
+## Issues
+* #6803 openssf scorecard
+* #5329 printStackTrace
+* #4340 passwords in code
+* #3969 code coverage
+* #3414 FVTs checking for exceptions
+* #1610 license list
+* 
 ## Challenges
 
 * Agree how to use, which, tools

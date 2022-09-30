@@ -36,6 +36,25 @@
 * Deploys config as-is to server (so endpoints must be correct)
 * At point of testing replication/with Crux
 
+## Scalability/Management
+* #6813 - kafka - unavailability?
+* #5471 checking connector status
+* #6809 review jvm mem
+* #6804 smaller footprint containers
+* #6732 image support for more architectures
+* #6728 shutdown hook
+* #6702 egeria parms passed to kafka
+* #6340 cross egeria container image <- proposal for uber image
+* #6005 omvs log incomplete
+* #5956 configure image error checking
+* #5955 docker tag for latest release
+* #5944 container metadata
+* #5918 container environment for ui server chassis
+* #5912 UBI8 image for configure container
+* #5514 performance - use slf4jh message formatter #5514
+* #1734 PR build of docker container for testing
+* #1070 mixed cohort testing
+* #229 out of reach repos
 ## Questions
 
 * What else is needed for production

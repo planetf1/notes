@@ -15,9 +15,17 @@ Java 17
 
 ## Java Modularity
 
-Strict definitions of contract
+Strict definitions of contract #2377
 
 ## Gradle
+
+* #6854 maven vs gradle - how dependencies managed
+* #6609 gradle catalogues
+* #6111 multiple slf4j bindings
+* #4442 publish build artifacts
+* #3370 overall gradle
+
+Will close remaining maven issues
 
 ### Benefits
 * faster incremental compilation, caching (seconds vs 10s minutes)
@@ -36,3 +44,8 @@ Strict definitions of contract
 
 * remove all certs from the source tree
 * Everyone will need to take an action to use/gen certs (another full topic)
+
+## Spring
+
+* May fix logback issue #6884
+* WebSecurityConfigureAdapter #6848 - deprecation
