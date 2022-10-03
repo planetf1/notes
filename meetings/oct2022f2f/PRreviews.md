@@ -24,3 +24,5 @@
 ## Other thoughts
 * Slack bot?
 * Action to bypass checks based on label ('urgent') etc
+* Maintainers also need to monitor for issues & PRs
+* Issues to be assigned

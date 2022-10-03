@@ -4,7 +4,7 @@
 
 * Tracking work - Issues
 * Consistency
-* 
+* Do we need a repo for cross-egeria tracking?
 
 [6907](https://github.com/odpi/egeria/issues/6907)
 
@@ -25,10 +25,12 @@
 * some issues including [6602](https://github.com/odpi/egeria/issues/6602) dependency issue
 * [6299](https://github.com/odpi/egeria/issues/6299) graph repository
 * [4096](https://github.com/odpi/egeria/issues/4096) cassandra metadata connector
+* Should OMASs be moved?
 
 ## repos
 * various repos need cataloguing properly, and some remaining actions from new repo template need completing inc. #6541 (UI)
 * [4667](https://github.com/odpi/egeria/issues/4667) mega distribution & streamlining
+
 ### General recommendations
 * Do we need consistency for templates, tages, build -- or just work local?
 * How about security scans (see that topic)
@@ -71,7 +73,8 @@ Key:
 * Artifacts *C*ontainer  *A*ttachment
 * Build - *G*radle *M*aven
 
-#### Non Egeria repos
-|bi-ai
-|OpenDS4All
-|OBAIC
+### Non Egeria repos
+|repo|
+|bi-ai|
+|OpenDS4All|
+|OBAIC|

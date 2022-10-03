@@ -7,6 +7,7 @@
 
 * Security [certificates ](certificates.md)
 * [Charts and operators](containers.md)
+* Choosing backends (SIG on production?)
  
 ## Issues
 * [6722](https://github.com/odpi/egeria/issues/6722) Dojos not working - out of sync with main code

@@ -92,11 +92,11 @@ Tools vary in their capabilities including language
 
 * Agree how to use, which, tools
 * getting tool use into the process
+* what to we need to do for licensing
 * tracking progress
+* code coverage?
 
-## Codescans by repository
-
-### Repo list
+## Repo list
 
 |Name|SonarCloud|NexusIQ|CodeQL|Sonatype lift|Dependabot|LFXSecurity|
 |--|--|--|--|--|--|--|^
@@ -127,3 +127,5 @@ Tools vary in their capabilities including language
 |egeria-palisade|N|N|N|N|N|Y|
 |egeria-k8s-operator|N|N|N|Y|Y|Y|
 |data-governance|N|N|N|N|N|Y|
+
+Note: this summary should be added to [odpi/egeria-docs#442](* [egeria-docs#169](https://github.com/odpi/egeria-docs/issues/42)

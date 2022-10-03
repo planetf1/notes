@@ -25,6 +25,8 @@ Look for backup to also be able to work through this, and potentially mostly tak
 project only mostly manage
 .. still need to consider integration testing, charts etc
 
+Currently takes 1-2 days elapsed if no significant issues come up
+
 ### connectors
 
 Highly variable, with differing levels of focus over time
@@ -62,9 +64,26 @@ Every 2, 3 months?
 
 Align subcomponents so we can talk about all together?
 
-How to handle release notes
+## release notes
 
-Versioning?
+Need more detail?
+simpler formatting?
+Auto-generated PR list? Can use tags to separate?
+easier to offer 'impact' with less frequent releases
+
+Versioning of docs?
+
+## Tracking candidate items
+Use of 'projects' (across repos) or milestones?
+For every issue, or just longer line items?
+tagging of issues/PRs for consistency
+
+## Slimline chassis
+
+* Chassis can be build 'slimline' by default
+* Add more docs on this
+* deploy slim by default
+* adapt charts etc to use slim version
 
 ## Issues
 * [6332](https://github.com/odpi/egeria/issues/6332) - signing of artifacts by LF

@@ -8,15 +8,36 @@ Java 17
 * Already build/run tests with Java 17 for egeria core. Most repos only use java 11 except for XTDB, IBM info server which adds Java 16
 * Focus on gradle build?
 * update language level for v4 
+* Java 17 released Sep 2021
 
-### work items to look at
-* records - may replace some lombok use?
-* deprecations
+###  features
+
+See also https://www.baeldung.com/java-17-new-features
+
+* sealed classes 
+* protection of jdk internal classes
+* switch - inc. type checking on enumerations
+* Records (see below)
+* Text blocks
+* instanceof (brevity/type check)
+
+### deprecations
+
+Many more deprecations are likely reported with Java 17. We need to sweep these up ready for the next round of Java updates in 2023 - and should start building with Java (current) now ie 19 as of 3 Oct.
+* [5369](https://github.com/odpi/egeria-docs/issues/5369) - deprecation warnings
+
 
 ## Java Modularity
 
-Strict definitions of contract [2377](https://github.com/odpi/egeria/issues/2377
+* Strict definitions of contract [2377](https://github.com/odpi/egeria/issues/2377
+* https://www.baeldung.com/java-9-modularity
 
+* Name – the name of our module
+* Dependencies – a list of other modules that this module depends on
+* Public Packages – a list of all packages we want accessible from outside the module
+* Services Offered – we can provide service implementations that can be consumed by other modules
+* Services Consumed – allows the current module to be a consumer of a service
+* Reflection Permissions – explicitly allows other classes to use reflection to access the private members of a package
 ## Gradle
 
 * [6854](https://github.com/odpi/egeria/issues/6854) maven vs gradle - how dependencies managed
@@ -49,3 +70,8 @@ Will close remaining maven issues
 
 * May fix logback issue [6884](https://github.com/odpi/egeria/issues/6884)
 * WebSecurityConfigureAdapter [6848](https://github.com/odpi/egeria/issues/6848) - deprecation
+
+## Java records
+
+Could new support for java records replace use of Lombok?
+Limited: https://www.baeldung.com/java-record-vs-lombok
