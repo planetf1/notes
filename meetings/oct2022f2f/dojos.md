@@ -10,6 +10,7 @@
 * Choosing backends (SIG on production?)
  
 ## Issues
+* [odpi/egeria-docs#392](https://github.com/odpi/egeria-docs/issues/392) - dojo addition for certs
 * [6722](https://github.com/odpi/egeria/issues/6722) Dojos not working - out of sync with main code
 * [6009](https://github.com/odpi/egeria/issues/6009) consistency of postman environment
 * [5021](https://github.com/odpi/egeria/issues/5021) automated curation lab

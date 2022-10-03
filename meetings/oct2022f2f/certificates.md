@@ -34,6 +34,8 @@ Certificates also need to include the HOSTNAME - which is not known until deploy
 * [6351](https://github.com/odpi/egeria/issues/6351) certs for ui chassis
 * [6326](https://github.com/odpi/egeria/issues/6326) self signed certs expired
 * [odpi/egeria-charts#171](https://github.com/odpi/egeria-charts/issues/171) Automatically generate certs in charts
+* [odpi/egeria-docs#392](https://github.com/odpi/egeria-docs/issues/392) - dojo addition for certs
+* [odpi/egeria-docs#395](https://github.com/odpi/egeria-docs/issues/395) - Docs on ssl/certs
 
 ## Questions
 

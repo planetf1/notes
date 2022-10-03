@@ -11,6 +11,7 @@
 ## Developers
 
 ## Issues
+ * General issues against docs https://github.com/odpi/egeria-docs/issues
  * [egeria-docs#169](https://github.com/odpi/egeria-docs/issues/169) - debugging rest request/response
 
 ## Docs

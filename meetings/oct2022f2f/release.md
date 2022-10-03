@@ -1,49 +1,58 @@
 # Release
 
+We should review our release process and ensure the frequency is appropriate, and that we have enough shared responsibilities distributed knowledge.
 
 ## Release process
 
 ### Egeria
 
-Branch
-Push new release
-update versions on master
-update branch on main
-test
-create images
-test charts
-push to sonatype
-review scan
-create release notes
-posts announce
+* Branch
+* Push new release
+* update versions on master
+* update branch on main
+* test
+* create images
+* test charts
+* push to sonatype
+* review scan
+* create release notes
+* posts announce
 
-Execution not overly complicated
+Execution not overly complicated, Currently takes 1-2 days elapsed if no significant issues come up
 
-Look for backup to also be able to work through this, and potentially mostly take over the monthly task?
+ESSENTIAL to get a backup for this to address
+* workload/priorities
+* unavailability
+
 ### UIs
 
-project only mostly manage
-.. still need to consider integration testing, charts etc
+Need to co-ordinate release of UI with core egeria -- a separate release lifecycle may make sense, but needs co-ordination, understanding of compatible versions, and understanding  integration testing, charts etc
 
-Currently takes 1-2 days elapsed if no significant issues come up
 
 ### connectors
 
 Highly variable, with differing levels of focus over time
-
-How do we want to handle?
+How do we want to handle? release? testing?
 
 ### charts
 
+There is no branch for the charts repo. versions are linearly incremented
+
 ### notebooks
+
+Currently there is no versioning beyond git commits
 
 ### samples
 
+These should be updated when a release comes out, we may not be doing this quick enough. How can we make more efficient?
+
 ## Dependency management
 
-~1st of every month PRs open with version updates
-Apply manually, test, integrate
-Usually quick, but sometimes find issues in test
+In addition to the release, every month:
+* ~1st of every month PRs open with version updates
+* Apply manually, test, integrate
+* Usually quick, but sometimes find issues in test
+* If issue cannot be fixed promptly, we open up an issue
 
 ## signing
 
@@ -53,7 +62,6 @@ this is also a precursor for creating & publishing SBOMs
 ## Frequency
 
 Every month
-
 Less Often?
 * more issues can build up
 * more chance of service being needed on prior release
@@ -77,13 +85,6 @@ Versioning of docs?
 Use of 'projects' (across repos) or milestones?
 For every issue, or just longer line items?
 tagging of issues/PRs for consistency
-
-## Slimline chassis
-
-* Chassis can be build 'slimline' by default
-* Add more docs on this
-* deploy slim by default
-* adapt charts etc to use slim version
 
 ## Issues
 * [6332](https://github.com/odpi/egeria/issues/6332) - signing of artifacts by LF

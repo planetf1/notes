@@ -16,6 +16,7 @@ Consolidated notes for various meeting agenda items
 * [CTS](cts.md)
 * [Connectors](connectors.md)
 * [ui](ui.md)
+* [jdbc](jdbc.md)
 
 Additional notes, not directly fitting into existing menu items
 * [Consumablity](consumability.md)

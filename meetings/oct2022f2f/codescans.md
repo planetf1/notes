@@ -86,7 +86,9 @@ Tools vary in their capabilities including language
 * [3969](https://github.com/odpi/egeria/issues/3969) code coverage
 * [3414](https://github.com/odpi/egeria/issues/3414) FVTs checking for exceptions
 * [1610](https://github.com/odpi/egeria/issues/1610) license list
-*
+* [odpi/egeria-docs#394](https://github.com/odpi/egeria-docs/issues/394) - doc LFXSecurity scans
+
+
 
 ## Challenges
 

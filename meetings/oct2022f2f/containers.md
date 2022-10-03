@@ -56,6 +56,8 @@ Recent additions include
 * [odpi/egeria-charts#166](https://github.com/odpi/egeria-charts/issues/166) Open kafka configuration (ie for event streams)
 * [odpi/egeria-charts#104](https://github.com/odpi/egeria-charts/issues/104) health checks 
 .. some other minor issues see https://github.com/odpi/egeria-charts/issues?page=1&q=is%3Aissue+is%3Aopen
+* [odpi/egeria-docs#392](https://github.com/odpi/egeria-docs/issues/293) - docs on persistence in charts
+
 
 ### Operator
 * Go based
