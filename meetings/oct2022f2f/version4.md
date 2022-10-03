@@ -5,7 +5,7 @@
 Java 11
 Java 17
 
-* Already build/run tests with Java 17
+* Already build/run tests with Java 17 for egeria core. Most repos only use java 11 except for XTDB, IBM info server which adds Java 16
 * Focus on gradle build?
 * update language level for v4 
 
