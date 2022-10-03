@@ -21,27 +21,41 @@ Recent additions include
 
 #### lab
 * recently changed to jupyter charts downloaded on demand. Master only - sufficient?
-* using self-cert - issues with UI? [see here](certificates.md)
+* [odpi/egeria-charts#191](https://github.com/odpi/egeria-charts/issues/191) Jupyter self-cert [see here](certificates.md)
+* [odpi/egeria-charts#195](https://github.com/odpi/egeria-charts/issues/195) New UI v4
+* [odpi/egeria-charts#179](https://github.com/odpi/egeria-charts/issues/179) continual resetting of auto gen password in Jupyter
+* [odpi/egeria-charts#126](https://github.com/odpi/egeria-charts/issues/126) ssh between containers (ie copying files, demos)
 * What needs adding?
 
 #### base
-* does not include business UI
+* [odpi/egeria-charts#195](https://github.com/odpi/egeria-charts/issues/195) Business UI?
+* [odpi/egeria-charts#182](https://github.com/odpi/egeria-charts/issues/182) content packs
+* [odpi/egeria-charts#133](https://github.com/odpi/egeria-charts/issues/133) Atruvia/IBM suggests to use in real scenario
+
+
 * fixed configuration
 * Some improvements have been submitted to add flexibility
 
 #### cts
-* issue getting cts results
+* [odpi/egeria#197](https://github.com/odpi/egeria-charts/issues/197) issue getting cts results
 
 #### pts
 * not regularly run
 
 #### Note on XTDB
-* will work with Chris to use in lab/base
+* [odpi/egeria-charts#125](https://github.com/odpi/egeria-charts/issues/125) XTDB in base/lab charts - work with chris
 
 #### Additional helm charts
 * Scenario to include postgres or database connector?
 * Open lineage
 * Apache Atlas (see [here](connectors.md)
+
+#### All charts
+* [odpi/egeria-charts#5](https://github.com/odpi/egeria-charts/issues/5) certificate/CA configuration
+* [odpi/egeria-charts#166](https://github.com/odpi/egeria-charts/issues/166) Open kafka configuration (ie for event streams)
+* [odpi/egeria-charts#166](https://github.com/odpi/egeria-charts/issues/166) Open kafka configuration (ie for event streams)
+* [odpi/egeria-charts#104](https://github.com/odpi/egeria-charts/issues/104) health checks 
+.. some other minor issues see https://github.com/odpi/egeria-charts/issues?page=1&q=is%3Aissue+is%3Aopen
 
 ### Operator
 * Go based
@@ -73,6 +87,7 @@ These issues are broader than k8s and apply to other deployment environments, bu
 * [1070](https://github.com/odpi/egeria/issues/1070) mixed cohort testing
 * [229](https://github.com/odpi/egeria/issues/229) out of reach repos
 * [egeria-charts#17](https://github.com/odpi/egeria-charts/issues/17) - prometheus
+* [egeria-charts#180](https://github.com/odpi/egeria-charts/issues/180) - java heap dump
 
 
 ### Security

@@ -33,6 +33,7 @@ Certificates also need to include the HOSTNAME - which is not known until deploy
 * [6807](https://github.com/odpi/egeria/issues/6807) perm format for truststore (jupyter)
 * [6351](https://github.com/odpi/egeria/issues/6351) certs for ui chassis
 * [6326](https://github.com/odpi/egeria/issues/6326) self signed certs expired
+* [odpi/egeria-charts#171](https://github.com/odpi/egeria-charts/issues/171) Automatically generate certs in charts
 
 ## Questions
 
