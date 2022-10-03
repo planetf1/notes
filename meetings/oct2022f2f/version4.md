@@ -15,15 +15,15 @@ Java 17
 
 ## Java Modularity
 
-Strict definitions of contract #2377
+Strict definitions of contract [2377](https://github.com/odpi/egeria/issues/2377
 
 ## Gradle
 
-* #6854 maven vs gradle - how dependencies managed
-* #6609 gradle catalogues
-* #6111 multiple slf4j bindings
-* #4442 publish build artifacts
-* #3370 overall gradle
+* [6854](https://github.com/odpi/egeria/issues/6854) maven vs gradle - how dependencies managed
+* [6609](https://github.com/odpi/egeria/issues/6609) gradle catalogues
+* [6111](https://github.com/odpi/egeria/issues/6111) multiple slf4j bindings
+* [4442](https://github.com/odpi/egeria/issues/4442) publish build artifacts
+* [3370](https://github.com/odpi/egeria/issues/3370) overall gradle
 
 Will close remaining maven issues
 
@@ -47,5 +47,5 @@ Will close remaining maven issues
 
 ## Spring
 
-* May fix logback issue #6884
-* WebSecurityConfigureAdapter #6848 - deprecation
+* May fix logback issue [6884](https://github.com/odpi/egeria/issues/6884)
+* WebSecurityConfigureAdapter [6848](https://github.com/odpi/egeria/issues/6848) - deprecation

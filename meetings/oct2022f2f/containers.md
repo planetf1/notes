@@ -37,24 +37,24 @@
 * At point of testing replication/with Crux
 
 ## Scalability/Management
-* #6813 - kafka - unavailability?
-* #5471 checking connector status
-* #6809 review jvm mem
-* #6804 smaller footprint containers
-* #6732 image support for more architectures
-* #6728 shutdown hook
-* #6702 egeria parms passed to kafka
-* #6340 cross egeria container image <- proposal for uber image
-* #6005 omvs log incomplete
-* #5956 configure image error checking
-* #5955 docker tag for latest release
-* #5944 container metadata
-* #5918 container environment for ui server chassis
-* #5912 UBI8 image for configure container
-* #5514 performance - use slf4jh message formatter #5514
-* #1734 PR build of docker container for testing
-* #1070 mixed cohort testing
-* #229 out of reach repos
+* [6813](https://github.com/odpi/egeria/issues/6813) - kafka - unavailability?
+* [5471](https://github.com/odpi/egeria/issues/5471) checking connector status
+* [6809](https://github.com/odpi/egeria/issues/6809) review jvm mem
+* [6804](https://github.com/odpi/egeria/issues/6804) smaller footprint containers
+* [6732](https://github.com/odpi/egeria/issues/6732) image support for more architectures
+* [6728](https://github.com/odpi/egeria/issues/6728) shutdown hook
+* [6702](https://github.com/odpi/egeria/issues/6702) egeria parms passed to kafka
+* [6340](https://github.com/odpi/egeria/issues/6340) cross egeria container image <- proposal for uber image
+* [6005](https://github.com/odpi/egeria/issues/6005) omvs log incomplete
+* [5956](https://github.com/odpi/egeria/issues/5956) configure image error checking
+* [5955](https://github.com/odpi/egeria/issues/5955) docker tag for latest release
+* [5944](https://github.com/odpi/egeria/issues/5944) container metadata
+* [5918](https://github.com/odpi/egeria/issues/5918) container environment for ui server chassis
+* [5912](https://github.com/odpi/egeria/issues/5912) UBI8 image for configure container
+* [5514](https://github.com/odpi/egeria/issues/5514) performance - use slf4jh message formatter
+* [1734](https://github.com/odpi/egeria/issues/1734) PR build of docker container for testing
+* [1070](https://github.com/odpi/egeria/issues/1070) mixed cohort testing
+* [229](https://github.com/odpi/egeria/issues/229) out of reach repos
 ## Questions
 
 * What else is needed for production

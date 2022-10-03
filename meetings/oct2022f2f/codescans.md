@@ -53,18 +53,18 @@ Tools vary in their capabilities including language
 * common reporting across many LF products
 
 ## SBOMs
-* SBOMS for egeria #6621
+* SBOMS for egeria [6621](https://github.com/odpi/egeria/issues/6621)
 
 ## CII badge/openssf
-* #6423 silver/gold badge
+* [6423](https://github.com/odpi/egeria/issues/6423) silver/gold badge
 
 ## Issues
-* #6803 openssf scorecard
-* #5329 printStackTrace
-* #4340 passwords in code
-* #3969 code coverage
-* #3414 FVTs checking for exceptions
-* #1610 license list
+* [6803](https://github.com/odpi/egeria/issues/6803) openssf scorecard
+* [5329](https://github.com/odpi/egeria/issues/5329) printStackTrace
+* [5340](https://github.com/odpi/egeria/issues/4340) passwords in code
+* [3969](https://github.com/odpi/egeria/issues/3969) code coverage
+* [3414](https://github.com/odpi/egeria/issues/3414) FVTs checking for exceptions
+* [1610](https://github.com/odpi/egeria/issues/1610) license list
 * 
 ## Challenges
 

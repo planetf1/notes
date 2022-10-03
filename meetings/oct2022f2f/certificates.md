@@ -15,9 +15,9 @@ Certificates also need to include the HOSTNAME - which is not known until deploy
 
 ## Issues
 
-* #6807 perm format for truststore (jupyter)
-* #6351 certs for ui chassis
-* #6326 self signed certs expired
+* [6807](https://github.com/odpi/egeria/issues/6807) perm format for truststore (jupyter)
+* [6351](https://github.com/odpi/egeria/issues/6351) certs for ui chassis
+* [6326](https://github.com/odpi/egeria/issues/6326) self signed certs expired
 * 
 ## Todos
 * Ensure user can easily replace certs (docs, configuration)

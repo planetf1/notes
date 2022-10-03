@@ -67,17 +67,17 @@ How to handle release notes
 Versioning?
 
 ## Issues
-* #6332 - signing of artifacts by LF
+* [6332](https://github.com/odpi/egeria/issues/6332) - signing of artifacts by LF
 
 ## Other build issues
-#5472 generation of openapi spec documents
-#5463 Build logs - so much text
-#5363 deprecation
-#5290 publishing of artifacts to improve debug
-#5089 - openAPI doc is poorly formatted
-#4906 - publish test results & improve
-#4662 - old code that doesn't work (glossary canonical model)
-#3034 release outline
-#2168 use of spring in non spring modules
-#940 metadata in jars
-#931 git version over API
+[5472](https://github.com/odpi/egeria/issues/5472) generation of openapi spec documents
+[5463](https://github.com/odpi/egeria/issues/5463) Build logs - so much text
+[5363](https://github.com/odpi/egeria/issues/5363) deprecation
+[5290](https://github.com/odpi/egeria/issues/5290) publishing of artifacts to improve debug
+[5089](https://github.com/odpi/egeria/issues/5089) - openAPI doc is poorly formatted
+[4906](https://github.com/odpi/egeria/issues/4906) - publish test results & improve
+[4662](https://github.com/odpi/egeria/issues/4662) - old code that doesn't work (glossary canonical model)
+[3034](https://github.com/odpi/egeria/issues/3034) release outline
+[2168](https://github.com/odpi/egeria/issues/2168) use of spring in non spring modules
+[940](https://github.com/odpi/egeria/issues/940) metadata in jars
+[931](https://github.com/odpi/egeria/issues/931) git version over API

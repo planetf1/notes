@@ -6,7 +6,7 @@
 * Consistency
 * 
 
-## master vs main (#6907)
+[6907](https://github.com/odpi/egeria/issues/6907)
 
 * Branch rename supported by git
 * Updates all PRs
@@ -18,14 +18,14 @@
 * 
 ## templates
 * only on egeria
-* #6849 remove checkboxes from bug/enhancement
+* [6849](https://github.com/odpi/egeria/issues/6849) remove checkboxes from bug/enhancement
 
 ## migrations
 * open lineage connector
-* some issues including #6602 dependency issue
-* #6299 graph repository
-* #4096 cassandra metadata connector
+* some issues including [6602](https://github.com/odpi/egeria/issues/6602) dependency issue
+* [6299](https://github.com/odpi/egeria/issues/6299) graph repository
+* [4096](https://github.com/odpi/egeria/issues/4096) cassandra metadata connector
 
 ## repos
 * various repos need cataloguing properly, and some remaining actions from new repo template need completing inc. #6541 (UI)
-* #4667 mega distribution & streamlining
+* [4667](https://github.com/odpi/egeria/issues/4667) mega distribution & streamlining
