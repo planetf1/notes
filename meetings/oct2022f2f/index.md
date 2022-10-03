@@ -22,6 +22,9 @@ Additional notes, not directly fitting into existing menu items
 * [Consumablity](consumability.md)
 * [community](community.md)
 
+For the community call on Wed 5 Oct
+* [release 3.12](release312.md)
+
 
 
 
