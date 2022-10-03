@@ -1,6 +1,13 @@
 # Containers & Kubernetes 
 
+Containers & their orchestration using Kubernetes offers a relatively portable, flexible
+approach for both production use cases, and for encapsulating demos and tutorials.
+
+So much is possible that we should discuss what we have, what we could have, and what (if any!) value ideas bring.
+
 ## Containers
+
+The following are currently provided on [quay.io](https://quay.io/organization/odpi) & [docker.io](https://hub.docker.com/u/odpi)
 
 * Egeria
 * Jupyter - had hoped to remove, but some issues with permissions in loading from github has left us with an image
@@ -10,9 +17,9 @@
 
 ## Kubernetes
 
-### Helm Charts
+The most tested environment is RedHat OpenShift (IBM cloud), with Rancher Desktop being favoured for local linux/mac/windows.
 
-### Current
+### Helm Charts
 
 Recent additions include
 * Ensuring connector jars can be downloaded
@@ -31,8 +38,6 @@ Recent additions include
 * [odpi/egeria-charts#195](https://github.com/odpi/egeria-charts/issues/195) Business UI?
 * [odpi/egeria-charts#182](https://github.com/odpi/egeria-charts/issues/182) content packs
 * [odpi/egeria-charts#133](https://github.com/odpi/egeria-charts/issues/133) Atruvia/IBM suggests to use in real scenario
-
-
 * fixed configuration
 * Some improvements have been submitted to add flexibility
 
@@ -43,12 +48,12 @@ Recent additions include
 * not regularly run
 
 #### Note on XTDB
-* [odpi/egeria-charts#125](https://github.com/odpi/egeria-charts/issues/125) XTDB in base/lab charts - work with chris
+* [odpi/egeria-charts#125](https://github.com/odpi/egeria-charts/issues/125) XTDB in base/lab charts - work with chris *important*
 
 #### Additional helm charts
 * Scenario to include postgres or database connector?
-* Open lineage
-* Apache Atlas (see [here](connectors.md)
+* Open lineage - this looks valuable to drive more discussion
+* Apache Atlas (see [here](connectors.md) - a stakeholder wants this
 
 #### All charts
 * [odpi/egeria-charts#5](https://github.com/odpi/egeria-charts/issues/5) certificate/CA configuration
@@ -68,9 +73,6 @@ Recent additions include
 * no specific consumer identified & needs review
 * [egeria-k8s-operator#12](https://github.com/odpi/egeria-k8s-operator/issues/12) - publish to marketplace
 * [egeria-k8s-operator#18](https://github.com/odpi/egeria-k8s-operator/issues/18) - automated testing
-
-
-
 
 ## Issues 
 
