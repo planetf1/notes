@@ -32,35 +32,38 @@
 ### General recommendations
 * Do we need consistency for templates, tages, build -- or just work local?
 * How about security scans (see that topic)
+* Ensure latest versions of Java being used
+* Ensure artifacts are being published correctly
+
 ### Repo list
-|Name|Owner|Artefacts|Scans|Release|
-|egeria-connector-sas-viya|Chris (SAS)|MD|
-|egeria-connector-hivemetastore
-|egeria-database-connectors
-|egeria
-|egeria-docs
-|egeria-connector-integration-topic-strimzi
-|egeria-samples-api
-|egeria-dev-projects
-|egeria-connector-hadoop-ecosystem
-|egeria-connector-repository-file-sample
-|egeria-connector-xtdb
-|egeria-connector-ibm-information-server
-|egeria-charts
-|egeria-jupyter-notebooks
-|egeria-ui
-|egeria-ui-components
-|egeria-react-ui
-|egeria-ui-core
-|egeria-js-commons
-|happi-graph
-|egeria-samples
-|egeria-connector-integration-event-schema
-|egeria-api-mocks
-|egeria-template-newrepo
-|egeria-palisade
-|egeria-k8s-operator
-|data-governance
+|Name|Owner|Artifacts|Release|Build|
+|egeria-connector-sas-viya|Chris (SAS)|MC|Y|G|
+|egeria-connector-hivemetastore|David|A|N|G|
+|egeria-database-connectors|?|MCA|y|G|
+|egeria|Mandy/Nigel|MCA|Y|MG|
+|egeria-docs|Mandy|Web|N|mkdocs|
+|egeria-connector-integration-topic-strimzi|David/Nigel|ACm|N|G|
+|egeria-samples-api|Mandy|A|N|G|
+|egeria-dev-projects|Mandy||||
+|egeria-connector-hadoop-ecosystem|Nigel|MA|y|M|
+|egeria-connector-repository-file-sample|David|Am|N|G|
+|egeria-connector-xtdb|Chris G|MA|Y|M|
+|egeria-connector-ibm-information-server|Ljupcho|MA|y|M|
+|egeria-charts|Nigel|charts|Y*|action|
+|egeria-jupyter-notebooks|Mandy/Nigel|(git clone)|N||
+|egeria-ui|Cezar|A|Y*|npm|
+|egeria-ui-components|Cezar||||
+|egeria-react-ui|David|AC|Y|npm|
+|egeria-ui-core|Cezar||||
+|egeria-js-commons|Cezar||||
+|happi-graph|Cezar||||
+|egeria-samples|Mandy||||
+|egeria-connector-integration-event-schema|David/Nigel|ACm|N|G|
+|egeria-api-mocks|Cezar||||
+|egeria-template-newrepo|Nigel|am|n|G|
+|egeria-palisade|?||||
+|egeria-k8s-operator|Nigel||N|script|
+|data-governance|Mandy||||
 
 Key:
 * Artefacts *D*ocker *M*aven *A*pipeline attachment
