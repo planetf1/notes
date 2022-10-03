@@ -70,6 +70,9 @@ Tools vary in their capabilities including language
 ### Dependabot
 * frequency varies by repo, but monthly is max period
 
+### Compiler warnings
+* Still compiler warnings ignored
+
 ## SBOMs
 
 * SBOMS for egeria [6621](https://github.com/odpi/egeria/issues/6621)
