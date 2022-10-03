@@ -48,6 +48,10 @@ Many more deprecations are likely reported with Java 17. We need to sweep these 
 Could new support for java records replace use of Lombok?
 Limited: https://www.baeldung.com/java-record-vs-lombok
 
+### Building with current Java
+* Egeria builds up to & including Java 18
+* Currently fails at java 19
+
 ## Java Modularity
 
 * Added in Java 9 - so in 11 LTS, but not currently used - does not require 17
