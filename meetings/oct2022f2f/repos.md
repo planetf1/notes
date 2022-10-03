@@ -36,7 +36,9 @@
 * Ensure artifacts are being published correctly
 
 ### Repo list
+
 |Name|Owner|Artifacts|Release|Build|
+|--|--|--|--|--|
 |egeria-connector-sas-viya|Chris (SAS)|MC|Y|G|
 |egeria-connector-hivemetastore|David|A|N|G|
 |egeria-database-connectors|?|MCA|y|G|
@@ -66,7 +68,8 @@
 |data-governance|Mandy||||
 
 Key:
-* Artefacts *D*ocker *M*aven *A*pipeline attachment
+* Artifacts *C*ontainer  *A*ttachment
+* Build - *G*radle *M*aven
 
 #### Non Egeria repos
 |bi-ai

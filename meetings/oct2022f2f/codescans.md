@@ -99,6 +99,7 @@ Tools vary in their capabilities including language
 ### Repo list
 
 |Name|SonarCloud|NexusIQ|CodeQL|Sonatype lift|Dependabot|LFXSecurity|
+|--|--|--|--|--|--|--|^
 |egeria-connector-sas-viya|N|N|Y|Y|Y|Y|
 |egeria-connector-hivemetastore|N|N|Y|Y|Y|Y|
 |egeria-database-connectors|N|N|Y|Y|Y|Y|
