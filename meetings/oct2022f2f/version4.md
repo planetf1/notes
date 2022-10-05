@@ -50,19 +50,19 @@ Limited: https://www.baeldung.com/java-record-vs-lombok
 
 ### Building with current Java
 * Egeria builds up to & including Java 18
-* Currently fails at java 19
+* Currently fails at java 19 (gradle 7.6 needed, currently at rc1 & groovy 3.0.12 -- with these build/fvt works ok)
 
 ## Java Modularity
 
 * Added in Java 9 - so in 11 LTS, but not currently used - does not require 17
-* Strict definitions of contract [2377](https://github.com/odpi/egeria/issues/2377
 * https://www.baeldung.com/java-9-modularity
-* Name – the name of our module
-* Dependencies – a list of other modules that this module depends on
-* Public Packages – a list of all packages we want accessible from outside the module
-* Services Offered – we can provide service implementations that can be consumed by other modules
-* Services Consumed – allows the current module to be a consumer of a service
-* Reflection Permissions – explicitly allows other classes to use reflection to access the private members of a package
+* Strict definitions of contract [2377](https://github.com/odpi/egeria/issues/2377
+  * Name – the name of our module
+  * Dependencies – a list of other modules that this module depends on
+  * Public Packages – a list of all packages we want accessible from outside the module
+  * Services Offered – we can provide service implementations that can be consumed by other modules
+  * Services Consumed – allows the current module to be a consumer of a service
+  * Reflection Permissions – explicitly allows other classes to use reflection to access the private members of a package
 
 ## Gradle
 
