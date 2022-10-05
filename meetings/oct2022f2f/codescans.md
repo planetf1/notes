@@ -83,6 +83,9 @@ Tools vary in their capabilities including language
 
 ## Issues
 
+In addition, codeQL & openssf explicitly add observations into the 'security'/issues section on github
+
+
 * [6803](https://github.com/odpi/egeria/issues/6803) openssf scorecard
 * [5329](https://github.com/odpi/egeria/issues/5329) printStackTrace
 * [5340](https://github.com/odpi/egeria/issues/4340) passwords in code
