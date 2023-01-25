@@ -2,5 +2,5 @@
 
 Notes on Cloud Native Egeria (2023)
 
-* [Mindmap - mm](CloudNativeDeploymentOfEgeria.mm) - in 'Freeplane' format
-* [Mindmap - PDF](CloudNativeDeploymentOfEgeria.pdf) - PDF version - rendered periodically
+* [Mindmap - svg](CloudNativeDeploymentOfEgeria.pdf) - SVG version - rendered periodically, loads in browser
+* [Mindmap - mm](CloudNativeDeploymentOfEgeria.mm) - in 'Freeplane' format, requires app
