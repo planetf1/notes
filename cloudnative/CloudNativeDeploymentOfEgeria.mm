@@ -1,0 +1,523 @@
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<attribute_registry SHOW_ATTRIBUTES="hide"/>
+<node TEXT="Cloud Native Deployment of Egeria" FOLDED="false" ID="6D2DB619-023F-4A60-BD2F-8C26DC894BF8" CREATED="1673975675000" MODIFIED="1674485487748" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<hook NAME="MapStyle" zoom="0.8">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" show_note_icons="true" allow_compact_layout="true" fit_to_viewport="false"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
+<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#afd3f7" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#afd3f7"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
+<icon BUILTIN="yes"/>
+<arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
+</stylenode>
+<stylenode TEXT="Task" COLOR="#3300ff"/>
+<stylenode TEXT="Question" COLOR="#cc33ff" STYLE="bubble">
+<edge COLOR="#b2b2fe"/>
+<font SIZE="10"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<node TEXT="Current State" POSITION="right" ID="ID_1700920507" CREATED="1674569736118" MODIFIED="1674569739033">
+<node TEXT="current egeria model" ID="ID_552866290" CREATED="1674558634377" MODIFIED="1674558638823">
+<node TEXT="server chassis" ID="ID_935207137" CREATED="1674558642835" MODIFIED="1674558649231">
+<node TEXT="server" ID="ID_625874822" CREATED="1674558650680" MODIFIED="1674558653773">
+<node TEXT="view server" ID="ID_431269589" CREATED="1674558674976" MODIFIED="1674558779559">
+<node TEXT="Glossary View" ID="ID_1814250751" CREATED="1674576982697" MODIFIED="1674576990118"/>
+<node TEXT="Dino View" ID="ID_1863044177" CREATED="1674576990669" MODIFIED="1674576992458"/>
+<node TEXT="Rex View" ID="ID_1649626268" CREATED="1674576992609" MODIFIED="1674576994354"/>
+<node TEXT="Text View" ID="ID_764307270" CREATED="1674576994490" MODIFIED="1674576996480"/>
+<node TEXT="... view" ID="ID_1441991452" CREATED="1674576997328" MODIFIED="1674576999832"/>
+</node>
+<node TEXT="governance server" ID="ID_1045760693" CREATED="1674558755683" MODIFIED="1674558761152">
+<node TEXT="engine host" ID="ID_128761444" CREATED="1674558761604" MODIFIED="1674558763413"/>
+<node TEXT="integration daemon" ID="ID_409268983" CREATED="1674558763618" MODIFIED="1674558769445">
+<node TEXT="OMIS" ID="ID_1640381028" CREATED="1674577463381" MODIFIED="1674577464866">
+<node TEXT="API Integrator" ID="ID_1237151704" CREATED="1674577465227" MODIFIED="1674577468655"/>
+<node TEXT="Catalog Integrator" ID="ID_1408910669" CREATED="1674577469093" MODIFIED="1674577471860"/>
+<node TEXT="Database integrator" ID="ID_1927438617" CREATED="1674577472027" MODIFIED="1674577476085"/>
+<node TEXT="Display Integrator" ID="ID_449022271" CREATED="1674577476585" MODIFIED="1674577483185"/>
+<node TEXT="Files Integrator" ID="ID_1671706345" CREATED="1674577483509" MODIFIED="1674577486450"/>
+<node TEXT="Infrastucture Integrator" ID="ID_546606427" CREATED="1674577486693" MODIFIED="1674577492179"/>
+<node TEXT="Lineage Integrator" ID="ID_834025182" CREATED="1674577493913" MODIFIED="1674577499083"/>
+<node TEXT="Organization Integrator" ID="ID_1199223652" CREATED="1674577499446" MODIFIED="1674577508275"/>
+<node TEXT="Security Integrator" ID="ID_959514745" CREATED="1674577508495" MODIFIED="1674577513181"/>
+<node TEXT="Stewardship Integrator" ID="ID_538570050" CREATED="1674577515115" MODIFIED="1674577523561"/>
+<node TEXT="Topic Integrator" ID="ID_1878571148" CREATED="1674577523779" MODIFIED="1674577527054"/>
+<node TEXT="... other OMIS" ID="ID_1828300242" CREATED="1674577527426" MODIFIED="1674584256412"/>
+</node>
+</node>
+<node TEXT="data engine proxy" ID="ID_1406929515" CREATED="1674558769649" MODIFIED="1674558772000"/>
+<node TEXT="open lineage server" ID="ID_247151921" CREATED="1674558772105" MODIFIED="1674558774868"/>
+</node>
+<node TEXT="cohort member" ID="ID_1777550098" CREATED="1674558783659" MODIFIED="1674558786142">
+<node TEXT="metadata access point" ID="ID_619415437" CREATED="1674558669521" MODIFIED="1674558674614">
+<node TEXT="OMAS" ID="ID_638414331" CREATED="1674577039947" MODIFIED="1674577041638">
+<node TEXT="analytics modeling" ID="ID_1839216590" CREATED="1674635962578" MODIFIED="1674635966095"/>
+<node TEXT="Asset Consumer" ID="ID_1266201701" CREATED="1674577041994" MODIFIED="1674577046254"/>
+<node TEXT="Asset Owner" ID="ID_562927158" CREATED="1674577046407" MODIFIED="1674577049038"/>
+<node TEXT="asset lineage" ID="ID_672711597" CREATED="1674635968272" MODIFIED="1674635970693"/>
+<node TEXT="asset manager" ID="ID_906633763" CREATED="1674635970965" MODIFIED="1674635973694"/>
+<node TEXT="community profile" ID="ID_673496375" CREATED="1674635974365" MODIFIED="1674635976650"/>
+<node TEXT="data engine" ID="ID_1644021480" CREATED="1674635976852" MODIFIED="1674635978258"/>
+<node TEXT="data manager" ID="ID_636550129" CREATED="1674635978388" MODIFIED="1674635981290"/>
+<node TEXT="data privacy" ID="ID_867582906" CREATED="1674635981424" MODIFIED="1674635983566"/>
+<node TEXT="data science" ID="ID_932427682" CREATED="1674635983732" MODIFIED="1674635985778"/>
+<node TEXT="design model" ID="ID_575806722" CREATED="1674635986007" MODIFIED="1674635987882"/>
+<node TEXT="devops" ID="ID_229278592" CREATED="1674635987998" MODIFIED="1674635990857"/>
+<node TEXT="digital architecture" ID="ID_1926736369" CREATED="1674635991608" MODIFIED="1674635994903"/>
+<node TEXT="digital service" ID="ID_436300738" CREATED="1674635995491" MODIFIED="1674635997761"/>
+<node TEXT="discovery engine" ID="ID_725309786" CREATED="1674635997909" MODIFIED="1674636000414"/>
+<node TEXT="glossary view" ID="ID_1483467363" CREATED="1674636000548" MODIFIED="1674636002449"/>
+<node TEXT="governance engine" ID="ID_231758936" CREATED="1674636002587" MODIFIED="1674636004731"/>
+<node TEXT="governance program" ID="ID_1944514296" CREATED="1674636004867" MODIFIED="1674636007564"/>
+<node TEXT="it infrastructure" ID="ID_654773967" CREATED="1674636007675" MODIFIED="1674636012258"/>
+<node TEXT="project management" ID="ID_1231188511" CREATED="1674636012415" MODIFIED="1674636016729"/>
+<node TEXT="seurity manager" ID="ID_1957234184" CREATED="1674636016866" MODIFIED="1674636019334"/>
+<node TEXT="security officer" ID="ID_170338980" CREATED="1674636019534" MODIFIED="1674636021647"/>
+<node TEXT="software developer" ID="ID_466291376" CREATED="1674636021807" MODIFIED="1674636024579"/>
+<node TEXT="stewardship action" ID="ID_914841895" CREATED="1674636024717" MODIFIED="1674636028426"/>
+<node TEXT="subject area" ID="ID_62830012" CREATED="1674636028563" MODIFIED="1674636031196"/>
+<node TEXT=".... additional OMASs" ID="ID_1330990126" CREATED="1674577052646" MODIFIED="1674577057898"/>
+</node>
+</node>
+<node TEXT="metadata repository" ID="ID_1334073281" CREATED="1674558654202" MODIFIED="1674558663968"/>
+<node TEXT="repository proxy" ID="ID_625372059" CREATED="1674558801132" MODIFIED="1674558804088"/>
+<node TEXT="conformance test server" ID="ID_359724904" CREATED="1674558804330" MODIFIED="1674558806878"/>
+</node>
+</node>
+<node TEXT="configuration" ID="ID_240610928" CREATED="1674558848651" MODIFIED="1674558850533">
+<node TEXT="REST calls to build" ID="ID_350952554" CREATED="1674558851334" MODIFIED="1674558859232"/>
+<node TEXT="REST call to deploy" ID="ID_536884900" CREATED="1674636111022" MODIFIED="1674636116128"/>
+<node TEXT="stored in JSON document (per server)" ID="ID_1581700740" CREATED="1674558859673" MODIFIED="1674558868083">
+<node TEXT="connector - plain/secure" ID="ID_1995077296" CREATED="1674636125406" MODIFIED="1674636137296"/>
+</node>
+<node TEXT="admin services" ID="ID_843096194" CREATED="1674558886057" MODIFIED="1674558889542"/>
+<node TEXT="platform services" ID="ID_1089752545" CREATED="1674558889769" MODIFIED="1674558893638"/>
+</node>
+</node>
+<node TEXT="Cohort" ID="ID_885295623" CREATED="1674577323523" MODIFIED="1674577326322">
+<node TEXT="kafka topic naming scheme" ID="ID_808854075" CREATED="1674577326702" MODIFIED="1674577334137"/>
+<node TEXT="Agreement/property - not currently a first class entity" ID="ID_404985787" CREATED="1674577334507" MODIFIED="1674636187433"/>
+</node>
+</node>
+<node TEXT="current container support" ID="ID_542520056" CREATED="1674558640385" MODIFIED="1674558915726">
+<node TEXT="containers" ID="ID_1676144029" CREATED="1674558916501" MODIFIED="1674558918790">
+<node TEXT="egeria" ID="ID_102707855" CREATED="1674558920993" MODIFIED="1674558922315">
+<node TEXT="main focus of this discussion" ID="ID_127770987" CREATED="1674636224548" MODIFIED="1674636235625"/>
+</node>
+<node TEXT="configure" ID="ID_67059269" CREATED="1674558922825" MODIFIED="1674558925552">
+<node TEXT="just a simple utility for running scripts" ID="ID_1399930393" CREATED="1674636213421" MODIFIED="1674636221913"/>
+</node>
+<node TEXT="jupyter" ID="ID_204421053" CREATED="1674558933500" MODIFIED="1674558935445"/>
+<node TEXT="UIs" ID="ID_788723850" CREATED="1674558936075" MODIFIED="1674558938072"/>
+</node>
+<node TEXT="helm charts" ID="ID_144251262" CREATED="1674558919296" MODIFIED="1674558947071">
+<node TEXT="lab" ID="ID_1445655664" CREATED="1674558947424" MODIFIED="1674558948673">
+<node TEXT="coco pharma. Jupyter/python examples. UI, kafka. multi cohort/platform/server" ID="ID_1030933867" CREATED="1674636277406" MODIFIED="1674636297317"/>
+</node>
+<node TEXT="base" ID="ID_166029746" CREATED="1674558948874" MODIFIED="1674558949555">
+<node TEXT="a simple deployment. single server/cohort. UI. Scripted config" ID="ID_203286517" CREATED="1674636244813" MODIFIED="1674636264091"/>
+</node>
+<node TEXT="cts" ID="ID_1360792256" CREATED="1674558949759" MODIFIED="1674558950471">
+<node TEXT="conformance testing" ID="ID_1748016724" CREATED="1674636266450" MODIFIED="1674636269338"/>
+</node>
+<node TEXT="pts" ID="ID_274984433" CREATED="1674558950584" MODIFIED="1674558951300">
+<node TEXT="performance testing" ID="ID_1908938766" CREATED="1674636272757" MODIFIED="1674636275754"/>
+</node>
+<node TEXT="configuration" ID="ID_1714691709" CREATED="1674558957780" MODIFIED="1674558959832">
+<node TEXT="values files" ID="ID_277690371" CREATED="1674558959992" MODIFIED="1674558963207"/>
+<node TEXT="specify additional connectors" ID="ID_1183902666" CREATED="1674558963587" MODIFIED="1674558968125"/>
+</node>
+<node TEXT="target use case" ID="ID_931844916" CREATED="1674558974859" MODIFIED="1674558977758">
+<node TEXT="education/tutorials" ID="ID_785588114" CREATED="1674558978755" MODIFIED="1674558988428"/>
+<node TEXT="getting started" ID="ID_182494140" CREATED="1674558988819" MODIFIED="1674558991431"/>
+<node TEXT="base to test connector against" ID="ID_393171095" CREATED="1674558991828" MODIFIED="1674558999864"/>
+</node>
+</node>
+<node TEXT="operator" ID="ID_1473057387" CREATED="1674559060107" MODIFIED="1674559062430">
+<node TEXT="go" ID="ID_216250912" CREATED="1674559063148" MODIFIED="1674559065150">
+<node TEXT="go chosen as base for most operators" ID="ID_1252338728" CREATED="1674559065473" MODIFIED="1674559070916"/>
+<node TEXT="can scale/deploy platforms" ID="ID_833309284" CREATED="1674559071419" MODIFIED="1674559087951"/>
+<node TEXT="server config in configmaps/secrets" ID="ID_496015853" CREATED="1674559088382" MODIFIED="1674559103217">
+<node TEXT="must pre-process to remove deployment addresses" ID="ID_1370476587" CREATED="1674559103685" MODIFIED="1674559114731"/>
+</node>
+<node TEXT="does not address config details - ie management of governance servers" ID="ID_1564461398" CREATED="1674636327390" MODIFIED="1674636338245"/>
+</node>
+<node TEXT="java" ID="ID_939078210" CREATED="1674559195900" MODIFIED="1674559197526">
+<node TEXT="started exploring java to make use of egeria APIs for management" ID="ID_43856707" CREATED="1674559197667" MODIFIED="1674559207464"/>
+<node TEXT="more scalable for dev org" ID="ID_1285965786" CREATED="1674559210645" MODIFIED="1674559234210"/>
+</node>
+</node>
+</node>
+<node TEXT="Issues" ID="C4C91673-75CD-48D2-89E8-BF8B0A93C84C" CREATED="1673975754000" MODIFIED="1674485487750" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Startup" ID="263E063E-BCCF-41CA-AFD1-0A573F6C03E2" CREATED="1673975768000" MODIFIED="1674636367808" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="load/access config" ID="ID_1066319356" CREATED="1674636368353" MODIFIED="1674636372855"/>
+<node TEXT="wait for initialization" ID="ID_1533660806" CREATED="1674636373246" MODIFIED="1674636376440"/>
+<node TEXT="start servers (or use auto start)" ID="ID_1910718185" CREATED="1674636376867" MODIFIED="1674636385089"/>
+<node TEXT="clumsy to check status" ID="ID_1909453082" CREATED="1674636385684" MODIFIED="1674636396627"/>
+</node>
+<node TEXT="Scaling manual" ID="FCD1BC67-7C27-4F2A-BEBA-C968C9910CCB" CREATED="1673975783000" MODIFIED="1674636434647" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Dynamic configuration" ID="E4C12946-B6E6-41BD-830C-C86ACC81522E" CREATED="1673975838000" MODIFIED="1674485487752" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="ING faced identical issues and handled in similar way" ID="3F54EC96-625A-424E-B713-052D4393E4CC" CREATED="1673975919000" MODIFIED="1674485487752" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Are there a few things we should do to the existing platform or should we just focus on new platform" STYLE_REF="Question" ID="017721CD-2288-4FD1-91C0-496869D3DAED" CREATED="1673978408000" MODIFIED="1674636513938"/>
+<node TEXT="not designed for production" ID="ID_1730563304" CREATED="1674636546807" MODIFIED="1674636552436"/>
+<node TEXT="tension between orchestration in k8s &amp; config/ops" ID="ID_1591360692" CREATED="1674636556550" MODIFIED="1674636566542"/>
+</node>
+</node>
+<node TEXT="Moving Forward" POSITION="right" ID="C586C719-AE09-4FFF-BE2C-7C4BDEF94A90" CREATED="1673982214000" MODIFIED="1674485487775" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Volunteers" ID="1670FC2A-BE2E-4966-91E9-CC5A2274925B" CREATED="1673982220000" MODIFIED="1674485487775" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Nigel" ID="75594D53-C46E-41C2-856E-A967727A1872" CREATED="1673982229000" MODIFIED="1674485487775" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Look for IBM stakeholder too" ID="1D5D4BC0-90A1-400E-B19A-C09B796FFA97" CREATED="1673982482000" MODIFIED="1674485487775" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="David optional" ID="39832FEF-4E36-43C1-8B42-3ECCDCB9D6F0" CREATED="1673982505000" MODIFIED="1674485487776" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Ljupcho" ID="0E00CC16-E8A0-4479-99FF-128421CFB471" CREATED="1673982234000" MODIFIED="1674485487776" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Juergen" ID="38DA498D-5305-4E16-AB6F-CEEB526ABE49" CREATED="1673982238000" MODIFIED="1674485487776" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Investigate others from ING?" ID="168F05DF-CB0C-4376-A8AE-B1E97A948549" CREATED="1673982312000" MODIFIED="1674485487776" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="Priorities" ID="8597F4D2-C61F-4EA4-9E00-CF59241BBB82" CREATED="1673982297000" MODIFIED="1674485487776" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="ING - not top priority - focused more on functional rather than non-functional - but still very interesting. Migrating towards K8s." ID="2BC6E697-1C85-4DFD-A21C-7CE46AD91CEC" CREATED="1673982336000" MODIFIED="1674485487776" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Atruvia - this is higher priority - important for expanding deployment." ID="C0372E2A-6BF8-43B5-BE9C-5FDF45EC7124" CREATED="1673982365000" MODIFIED="1674485487778" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="Design" ID="0BA56B97-44AF-4335-BA5D-A3D836FBA84E" CREATED="1673975926000" MODIFIED="1674636766330" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Split configuration" ID="96EC6816-C5E1-4483-956F-D59AF0DFA192" CREATED="1673975931000" MODIFIED="1674485487754" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Platform configuration" ID="7F627D64-A2EF-4E65-AAA5-78F2EED7582F" CREATED="1673975994000" MODIFIED="1674485487755" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Basic Server deployment" ID="27B6239B-72B5-4A5F-96C3-0D7A9696BFC1" CREATED="1673975966000" MODIFIED="1674485487755" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Server configuration" ID="6227FCAA-CB82-4A12-AB96-45088F4BF9A5" CREATED="1673975978000" MODIFIED="1674485487755" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="Performance experiments" ID="8023E68F-69B5-4BCB-9BF1-B22F73569176" CREATED="1673975948000" MODIFIED="1674485487755" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Startup time" ID="ID_695944535" CREATED="1674485696154" MODIFIED="1674485700019"/>
+<node TEXT="memory usage" ID="ID_1770237704" CREATED="1674485700176" MODIFIED="1674485704357"/>
+<node TEXT="Experiment - try with different frameworks" ID="ID_821538450" CREATED="1674570859531" MODIFIED="1674570870387"/>
+</node>
+<node TEXT="Frameworks" ID="E6981C62-BF38-4124-A1F6-E9359642008C" CREATED="1673976065000" MODIFIED="1674637239959" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="Spring" ID="ID_1968539488" CREATED="1674570629161" MODIFIED="1674637143609">
+<node TEXT="Can use existing bindings (-spring modules)" ID="ID_1761884752" CREATED="1674637144517" MODIFIED="1674637159332"/>
+<node TEXT="more likely to be compatible" ID="ID_353231615" CREATED="1674637160723" MODIFIED="1674637167504"/>
+<node TEXT="is overhead higher?" ID="ID_104254091" CREATED="1674637167961" MODIFIED="1674637173449"/>
+</node>
+<node TEXT="Eclipse microprofile" ID="ID_303358644" CREATED="1674570640065" MODIFIED="1674637181954">
+<node TEXT="Emily (IBM) may be able to help" ID="ID_1856448394" CREATED="1674570746214" MODIFIED="1674570759531"/>
+<node TEXT="supported by Quarkus" ID="ID_1395736107" CREATED="1674637182681" MODIFIED="1674637193829"/>
+<node TEXT="multiple runtime implementations" ID="ID_839566017" CREATED="1674637194177" MODIFIED="1674637199208"/>
+<node TEXT="different annotations" ID="ID_42730646" CREATED="1674637199691" MODIFIED="1674637203304"/>
+<node TEXT="any automatic migration" ID="ID_1019066938" CREATED="1674637203535" MODIFIED="1674637208879"/>
+<node TEXT="compatibility needed" ID="ID_1089369924" CREATED="1674637209485" MODIFIED="1674637224739"/>
+<node TEXT="How would this affect services security?" ID="CDA46D70-C415-4F4D-923F-B7C02610B31E" CREATED="1673976469000" MODIFIED="1674637374358" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT=".. other services frameworks?" ID="ID_1571392859" CREATED="1674570657192" MODIFIED="1674570663190">
+<node TEXT="Micronaut" ID="ID_86666039" CREATED="1674570652136" MODIFIED="1674570656437">
+<node TEXT="Another framework, but probably skip?" ID="ID_336400226" CREATED="1674636982150" MODIFIED="1674636992380"/>
+</node>
+<node TEXT="also an option to consider gRPC?" ID="ID_471211609" CREATED="1674641199212" MODIFIED="1674641204594"/>
+</node>
+<node TEXT="Experiment - choose and build examples then discuss" ID="ID_753814722" CREATED="1674570682090" MODIFIED="1674570714611"/>
+<node TEXT="Quarkus" ID="ID_228301827" CREATED="1674570959699" MODIFIED="1674570963787">
+<node TEXT="Red Hat" ID="ID_351590425" CREATED="1674637018574" MODIFIED="1674637020907"/>
+<node TEXT="Cloud Native" ID="ID_582833242" CREATED="1674637021302" MODIFIED="1674637023763"/>
+<node TEXT="Quick startup" ID="ID_1691217979" CREATED="1674637024340" MODIFIED="1674637027501"/>
+<node TEXT="Hot loading/test support" ID="ID_1666048841" CREATED="1674637028237" MODIFIED="1674637036745"/>
+<node TEXT="Build to native, or use JIT" ID="ID_1323812239" CREATED="1674637039901" MODIFIED="1674637045720"/>
+</node>
+<node TEXT="Test Containers" ID="ID_1479017691" CREATED="1674570973777" MODIFIED="1674570977350">
+<node TEXT="cold generally help in energia" ID="ID_1824177314" CREATED="1674637064185" MODIFIED="1674637070706"/>
+<node TEXT="java code for deployment" ID="ID_1156026864" CREATED="1674637071110" MODIFIED="1674637074701"/>
+<node TEXT="useful for FVTs" ID="ID_1372668678" CREATED="1674637075011" MODIFIED="1674637078234"/>
+<node TEXT="secondary to core frameworks" ID="ID_1310946058" CREATED="1674637078582" MODIFIED="1674637083099"/>
+</node>
+<node TEXT="Experiments" ID="ID_1780092834" CREATED="1674637251868" MODIFIED="1674637254840">
+<node TEXT="Build multiple microservices using quarkus and a) spring b) microprofile" STYLE_REF="Task" ID="ID_949381152" CREATED="1674637258308" MODIFIED="1674637312136"/>
+</node>
+</node>
+<node TEXT="Modularization" ID="8230FE41-A5CA-48E0-A884-3A4DBFBC4F20" CREATED="1673976093000" MODIFIED="1674485487758" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="What level of modularization is appropriate?" STYLE_REF="Question" ID="ID_474179035" CREATED="1674636773287" MODIFIED="1674636784309">
+<node TEXT="For User - map to egeria concepts" ID="ID_162514768" CREATED="1674636914808" MODIFIED="1674636921339">
+<node TEXT="Better to organize by business domain rather than by type (e.g. Glossary)" ID="F6532D0C-B08F-44F2-BCA4-1A7EDA2754D4" CREATED="1673977352000" MODIFIED="1674485487768" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="as well as coding details" ID="ID_1644527914" CREATED="1674636923862" MODIFIED="1674636927353"/>
+</node>
+<node TEXT="Granularity of services" ID="0FF38646-A526-4DBB-BA89-1FD540F0BA2D" CREATED="1673976757000" MODIFIED="1674571149631" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Simpler dependency chains/less clashes" ID="ID_379542346" CREATED="1674558566296" MODIFIED="1674636813692"/>
+<node TEXT="Java Modules" ID="ID_260072529" CREATED="1674636831269" MODIFIED="1674636834931">
+<node TEXT="custom executable builds with jlink" ID="ID_919306679" CREATED="1674558576210" MODIFIED="1674558586948"/>
+<node TEXT="prototype done" ID="ID_1094349327" CREATED="1674636849064" MODIFIED="1674636856907"/>
+<node TEXT="extra refinement, but finer detail" ID="ID_1748280975" CREATED="1674636857382" MODIFIED="1674636874961"/>
+<node TEXT="look at &apos;later&apos; ?" ID="ID_727611784" CREATED="1674636875479" MODIFIED="1674636879874"/>
+</node>
+<node TEXT="Group things together into Profiles???" ID="DF82E233-E1D3-42C9-BF02-B366CD8B8E67" CREATED="1673977338000" MODIFIED="1674485487767" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="what does tenancy mean" ID="ID_1887525658" CREATED="1674558601254" MODIFIED="1674558606951">
+<node TEXT="Does it cause concern over resource usage" ID="ID_1549570772" CREATED="1674558608402" MODIFIED="1674637425364"/>
+<node TEXT="How do we model tenancy?" ID="ID_888999358" CREATED="1674637425785" MODIFIED="1674637429945"/>
+<node TEXT="How would we implement it" ID="ID_145460760" CREATED="1674637430619" MODIFIED="1674637434908"/>
+<node TEXT="isolation" ID="ID_360607816" CREATED="1674558613160" MODIFIED="1674558615692"/>
+</node>
+<node TEXT="k8s operators" ID="ID_1948960195" CREATED="1674570889772" MODIFIED="1674641169456">
+<node TEXT="Custom resource design" STYLE_REF="Task" ID="ID_615008645" CREATED="1674570903820" MODIFIED="1674637466788">
+<node TEXT="mapping egeria concepts to custom resources" ID="ID_946383982" CREATED="1674558539438" MODIFIED="1674558550802">
+<node TEXT="Server (coarse)" ID="ID_1020716144" CREATED="1674641019495" MODIFIED="1674641025539"/>
+<node TEXT="OMAS service etc (super fine)" ID="ID_1574304091" CREATED="1674641026277" MODIFIED="1674641033123"/>
+</node>
+</node>
+<node TEXT="reconciliation" ID="ID_393914838" CREATED="1674558551389" MODIFIED="1674558565544"/>
+<node TEXT="use standard k8s resources" ID="ID_1356893159" CREATED="1674641170893" MODIFIED="1674641175888"/>
+</node>
+</node>
+<node TEXT="Repositories" ID="ID_517689399" CREATED="1674570998864" MODIFIED="1674571007441">
+<node TEXT="Source/Issues/Docs" ID="ID_131665208" CREATED="1674571008078" MODIFIED="1674571238514">
+<node TEXT="Git Hub" ID="ID_486330212" CREATED="1674571238954" MODIFIED="1674571241257"/>
+</node>
+<node TEXT="Discussions" ID="ID_158868245" CREATED="1674571013839" MODIFIED="1674571016147">
+<node TEXT="github discussions" ID="ID_1419738313" CREATED="1674571019045" MODIFIED="1674571022286">
+<node TEXT="enable in git hub" STYLE_REF="Task" ID="ID_1220420733" CREATED="1674637487851" MODIFIED="1674637502879"/>
+</node>
+<node TEXT="ODPi slack #egeria-kubernetes" ID="ID_1440832017" CREATED="1674559382381" MODIFIED="1674559391645"/>
+</node>
+</node>
+</node>
+<node TEXT="Meetings" POSITION="left" ID="ID_117691721" CREATED="1674485447693" MODIFIED="1674485487779">
+<font SIZE="10"/>
+<node TEXT="Kickoff 20230125" ID="ID_784740489" CREATED="1674485494152" MODIFIED="1674485499970">
+<node TEXT="Welcome" ID="ID_900372564" CREATED="1674485517709" MODIFIED="1674485520079"/>
+<node TEXT="Participants" ID="ID_1840812865" CREATED="1674485521836" MODIFIED="1674485525719"/>
+<node TEXT="Workgroup Objective" ID="ID_372353512" CREATED="1674485530386" MODIFIED="1674485535157"/>
+<node TEXT="Current State" ID="ID_312299534" CREATED="1674485539896" MODIFIED="1674485545700"/>
+<node TEXT="Ideas" ID="ID_748967474" CREATED="1674485546988" MODIFIED="1674485548552"/>
+</node>
+</node>
+<node TEXT="Objective" POSITION="left" ID="97E68256-BA89-41EA-8FCB-F1ABBC9AECFD" CREATED="1673975732000" MODIFIED="1674635694287" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="What is Cloud Native" ID="ID_1056860534" CREATED="1674569487071" MODIFIED="1674569490161">
+<node ID="ID_1143369727" CREATED="1674569572220" MODIFIED="1674569572220"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p dir="auto" style="margin-top: 0px; margin-bottom: 16px; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none">
+      Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds. Containers, service meshes, microservices, immutable infrastructure, and declarative APIs exemplify this approach.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_367885474" CREATED="1674569572220" MODIFIED="1674569572220"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p dir="auto" style="margin-top: 0px; margin-bottom: 16px; color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; text-decoration: none">
+      These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="Why/benefits" ID="ID_1813781094" CREATED="1674559266251" MODIFIED="1674559269725">
+<node TEXT="operations tasks familar to deploying org" ID="ID_966260947" CREATED="1674559270050" MODIFIED="1674559280533"/>
+<node TEXT="reuse existing technologies" ID="ID_20036153" CREATED="1674559280714" MODIFIED="1674559286968"/>
+<node TEXT="more flexible deployment" ID="ID_1496078586" CREATED="1674559287651" MODIFIED="1674559294742"/>
+<node TEXT="easier to secure" ID="ID_1827011303" CREATED="1674559295292" MODIFIED="1674559297288"/>
+<node TEXT="Conform to more Cloud Native" ID="10EE29E5-CEAC-4924-9464-E01587672F60" CREATED="1673975749000" MODIFIED="1674485487750" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Design for large organizations" ID="E50DF315-DFFC-42BC-AA08-5DADBE833FCA" CREATED="1673975739000" MODIFIED="1674485487750" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="Task: Create a definition of high level objective" STYLE_REF="Task" ID="ID_311899210" CREATED="1674635714566" MODIFIED="1674636529459"/>
+</node>
+<node TEXT="Requirements" POSITION="left" ID="B0C6E606-B410-47EC-8FCA-02A1C0C499C9" CREATED="1673977222000" MODIFIED="1674485487765" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+<node TEXT="13 factors" ID="ID_151417836" CREATED="1674569378647" MODIFIED="1674569381381">
+<node TEXT="Codebase" ID="ID_1406706081" CREATED="1674569382950" MODIFIED="1674569384939"/>
+<node TEXT="Dependencies" ID="ID_987290869" CREATED="1674569385319" MODIFIED="1674569387143"/>
+<node TEXT="Config" ID="ID_883615362" CREATED="1674569387340" MODIFIED="1674569388634"/>
+<node TEXT="Backing Services" ID="ID_1764684744" CREATED="1674569388756" MODIFIED="1674569391444"/>
+<node TEXT="Build, release, run" ID="ID_523308025" CREATED="1674569391996" MODIFIED="1674569394554"/>
+<node TEXT="Processes" ID="ID_1438943191" CREATED="1674569394716" MODIFIED="1674569397867"/>
+<node TEXT="Port binding" ID="ID_193606198" CREATED="1674569398012" MODIFIED="1674569400313"/>
+<node TEXT="Concurrency" ID="ID_1962771688" CREATED="1674569400451" MODIFIED="1674569403083"/>
+<node TEXT="Disposability" ID="ID_1855907978" CREATED="1674569403216" MODIFIED="1674569405809"/>
+<node TEXT="Dev/prod parity" ID="ID_1056856650" CREATED="1674569405947" MODIFIED="1674569409433"/>
+<node TEXT="Logs" ID="ID_1192624337" CREATED="1674569409691" MODIFIED="1674569410967"/>
+<node TEXT="Admin processes" ID="ID_1722061813" CREATED="1674569415932" MODIFIED="1674569418897"/>
+<node TEXT="Promote Synergy" ID="ID_1543747938" CREATED="1674569419157" MODIFIED="1674569422806"/>
+</node>
+<node TEXT="Constraints" ID="ID_1220097762" CREATED="1674559001963" MODIFIED="1674559013717">
+<node TEXT="must support existing server chassis" ID="ID_1768639108" CREATED="1674559014188" MODIFIED="1674559021960"/>
+<node TEXT="architecture must support most/all function (eventually)" ID="ID_1769686497" CREATED="1674559029060" MODIFIED="1674559037872"/>
+<node TEXT="must demonstrate value quickly" ID="ID_115940250" CREATED="1674559040148" MODIFIED="1674559047286"/>
+<node TEXT="must be generally usable by community" ID="ID_762552742" CREATED="1674559167352" MODIFIED="1674559176270"/>
+<node TEXT="kubernetes is target runtime" ID="ID_1469606684" CREATED="1674559182156" MODIFIED="1674559185678"/>
+<node TEXT="Cohort has to support all the environments" ID="08C5AC7C-E520-4469-A2F6-0EA018E1C277" CREATED="1673977240000" MODIFIED="1674485487766" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+<node TEXT="Restful Endpoints need to stay the same" ID="8C8F4ED0-CA5E-4E46-ABFE-EEC0F6DC078F" CREATED="1673977230000" MODIFIED="1674485487765" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="process" ID="ID_91151538" CREATED="1674559940896" MODIFIED="1674559943266">
+<node TEXT="define persona" STYLE_REF="Task" ID="ID_1053110723" CREATED="1674559943873" MODIFIED="1674641087309"/>
+<node TEXT="empathy map" STYLE_REF="Task" ID="ID_1347075915" CREATED="1674559968484" MODIFIED="1674641091118"/>
+</node>
+<node TEXT="Custom connectors" ID="ID_1448084172" CREATED="1674556671751" MODIFIED="1674556687673">
+<node TEXT="dedicated container" ID="ID_48864944" CREATED="1674556688546" MODIFIED="1674556708403"/>
+<node TEXT="build in cicd pipeline" ID="ID_834158861" CREATED="1674556711868" MODIFIED="1674556718633"/>
+<node TEXT="minimal stack &amp; dependencies to participate" ID="ID_253856289" CREATED="1674556720820" MODIFIED="1674556729667"/>
+<node TEXT="reduced library conflict" ID="ID_1048462780" CREATED="1674556733318" MODIFIED="1674556739744"/>
+</node>
+<node TEXT="scaling" ID="ID_1934618294" CREATED="1674558587473" MODIFIED="1674558600770"/>
+<node TEXT="Health checks" ID="ID_332184707" CREATED="1674559924516" MODIFIED="1674559930210"/>
+<node TEXT="metrics" ID="ID_1870661246" CREATED="1674559930572" MODIFIED="1674559932184"/>
+<node TEXT="Have to ensure interoperability between existing platform and new" ID="AE2CF10F-C520-4A75-A7E7-F114351D49C1" CREATED="1673976444000" MODIFIED="1674485487762" STYLE="bubble">
+<font SIZE="10"/>
+<edge COLOR="#b2b2fe"/>
+</node>
+</node>
+<node TEXT="related" POSITION="left" ID="ID_442122128" CREATED="1674560113702" MODIFIED="1674560115500">
+<node TEXT="k8s backlog" ID="ID_910382371" CREATED="1674560115862" MODIFIED="1674560118543"/>
+<node TEXT="Simple changes to address very near term pain points" ID="ID_126474227" CREATED="1674560118947" MODIFIED="1674560128808"/>
+</node>
+</node>
+</map>
