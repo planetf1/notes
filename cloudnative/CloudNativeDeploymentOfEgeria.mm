@@ -46,8 +46,8 @@
 <font BOLD="true"/>
 </stylenode>
 <stylenode TEXT="Question" COLOR="#cc33ff" BACKGROUND_COLOR="#ccffcc" STYLE="bubble">
-<edge COLOR="#b2b2fe"/>
 <font SIZE="10" BOLD="true"/>
+<edge COLOR="#b2b2fe"/>
 </stylenode>
 <stylenode TEXT="Quote">
 <font ITALIC="true"/>
@@ -466,7 +466,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node STYLE_REF="Quote" ID="ID_367885474" CREATED="1674569572220" MODIFIED="1674644590016"><richcontent TYPE="NODE">
@@ -498,29 +497,24 @@
 <edge COLOR="#b2b2fe"/>
 </node>
 </node>
-<node TEXT="notes" ID="ID_1830100406" CREATED="1674659239457" MODIFIED="1674659243707">
-<node TEXT="lj" ID="ID_1609202366" CREATED="1674659380413" MODIFIED="1674659381546">
-<node TEXT="Task: Create a definition of high level objective" STYLE_REF="Task" ID="ID_311899210" CREATED="1674635714566" MODIFIED="1674643341035">
-<node TEXT="chassis model" ID="ID_1192465909" CREATED="1674659275907" MODIFIED="1674659278530">
-<node TEXT="self governed. (interaction with platform)" ID="ID_1236223701" CREATED="1674659251990" MODIFIED="1674659271000"/>
-</node>
-</node>
-<node TEXT="deviate from current model." ID="ID_1250202124" CREATED="1674659246366" MODIFIED="1674659251468"/>
-<node TEXT="traditional it. how can egeria be operatoed" ID="ID_1417502977" CREATED="1674659311177" MODIFIED="1674659317715"/>
-<node TEXT="not benefit from ability of having self governed solution" ID="ID_1168806811" CREATED="1674659621641" MODIFIED="1674659634820"/>
+<node TEXT="notes from meeting 20230125" ID="ID_1830100406" CREATED="1674659239457" MODIFIED="1675256426653">
+<node TEXT="Ljupcho/ING" ID="ID_1609202366" CREATED="1674659380413" MODIFIED="1675256435801">
+<node TEXT="Our deployment deviates from standard egeria model" ID="ID_1250202124" CREATED="1674659246366" MODIFIED="1675256482737"/>
+<node TEXT="how can egeria be operated in a traditional, enterprise, IT environment" ID="ID_1417502977" CREATED="1674659311177" MODIFIED="1675256545187"/>
+<node TEXT="Egeria has been designed to offer a self governed solution - ie for small orgs, but an enterprise does not benefit from this ability" ID="ID_1168806811" CREATED="1674659621641" MODIFIED="1675256582402"/>
 <node TEXT="different peope who support gov process vs those who understand ie business vs it" ID="ID_1727964565" CREATED="1674659640385" MODIFIED="1674659653149"/>
-<node TEXT="in production. We decide what configuration is permitted ie what capabilities" ID="ID_527129848" CREATED="1674659670146" MODIFIED="1674659682583">
-<node TEXT="must be compliant" ID="ID_232318444" CREATED="1674659692983" MODIFIED="1674659695832"/>
-<node TEXT="no dynamic reconfig during production (of behaviour) / adding new applications" ID="ID_1168372876" CREATED="1674659696175" MODIFIED="1674659709164"/>
-<node TEXT="responsibiltiies in a diff place" ID="ID_827532310" CREATED="1674659796151" MODIFIED="1674659806651"/>
-<node TEXT="still dynamic/elastic" ID="ID_997089512" CREATED="1674659807143" MODIFIED="1674659813132"/>
+<node TEXT="In enterprise production. We (IT) decide what configuration is permitted ie what capabilities" ID="ID_527129848" CREATED="1674659670146" MODIFIED="1675256601839">
+<node TEXT="must be compliant with corporate standards" ID="ID_232318444" CREATED="1674659692983" MODIFIED="1675260449938"/>
+<node TEXT="no dynamic reconfig of infrastructure during production (of behaviour) / adding new applications" ID="ID_1168372876" CREATED="1674659696175" MODIFIED="1675260461354"/>
+<node TEXT="responsibilties in a different place (ie IT)" ID="ID_827532310" CREATED="1674659796151" MODIFIED="1675260478325"/>
+<node TEXT="still need for a dynamic/elastic infrastructure" ID="ID_997089512" CREATED="1674659807143" MODIFIED="1675260490625"/>
+</node>
 <node TEXT="people" ID="ID_349343630" CREATED="1674659879295" MODIFIED="1674659880727">
 <node TEXT="devops" ID="ID_595088634" CREATED="1674659881015" MODIFIED="1674659884429">
 <node TEXT="people adding new functionality" ID="ID_434935499" CREATED="1674659886896" MODIFIED="1674659891403"/>
-<node TEXT="adding new functionality" ID="ID_792869285" CREATED="1674659891536" MODIFIED="1674659894580"/>
-<node TEXT="dev, ops or both" ID="ID_1629713532" CREATED="1674659978167" MODIFIED="1674659983554"/>
+<node TEXT="Experts in development, operations, or both" ID="ID_1629713532" CREATED="1674659978167" MODIFIED="1675260509712"/>
 <node TEXT="hands on with tech" ID="ID_1349195724" CREATED="1674659984238" MODIFIED="1674659986691"/>
-<node TEXT="manageing it landscape" ID="ID_1897107353" CREATED="1674659987179" MODIFIED="1674659994419"/>
+<node TEXT="managing it in a complex landscape" ID="ID_1897107353" CREATED="1674659987179" MODIFIED="1675260519720"/>
 </node>
 <node TEXT="teams?" ID="ID_93780983" CREATED="1674660012142" MODIFIED="1674660014097">
 <node TEXT="tribes" ID="ID_1235752179" CREATED="1674660042220" MODIFIED="1674660043875"/>
@@ -532,7 +526,29 @@
 <node TEXT="chapters" ID="ID_10171578" CREATED="1674660044160" MODIFIED="1674660045432"/>
 </node>
 </node>
-<node TEXT="j" ID="ID_1620778403" CREATED="1674660271543" MODIFIED="1674660273002">
+<node TEXT="product owners that deliver services" ID="ID_449741975" CREATED="1674659906289" MODIFIED="1674659911132">
+<node TEXT="it services for business service" ID="ID_1122987347" CREATED="1674659915071" MODIFIED="1674659920092">
+<node TEXT="business consumes service" ID="ID_292419678" CREATED="1674659926447" MODIFIED="1674659929950"/>
+<node TEXT="sla" ID="ID_378140993" CREATED="1674659935805" MODIFIED="1674659936536"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Juergen / Atruvia" ID="ID_583315770" CREATED="1674659395818" MODIFIED="1675260566640">
+<node TEXT="develop and run software for other banks" ID="ID_260823931" CREATED="1674659408848" MODIFIED="1674659471050"/>
+<node TEXT="digitilization partner" ID="ID_1638177155" CREATED="1674659505176" MODIFIED="1674659508586"/>
+</node>
+<node TEXT="environments" ID="ID_436298526" CREATED="1674660513342" MODIFIED="1674660517773">
+<node TEXT="private cloud" ID="ID_564920295" CREATED="1674660503142" MODIFIED="1674660505675"/>
+<node TEXT="public cloud" ID="ID_988028907" CREATED="1674660505893" MODIFIED="1674660507910"/>
+<node TEXT="hybrid" ID="ID_990318069" CREATED="1674660508078" MODIFIED="1674660509450"/>
+</node>
+<node TEXT="flexibility to provide tools in way they want it" ID="ID_1159240794" CREATED="1674660694688" MODIFIED="1674660705963"/>
+<node TEXT="scenario" ID="ID_1698122780" CREATED="1674661439900" MODIFIED="1674661442224">
+<node TEXT="scalability/ responsiveness" ID="ID_1817751445" CREATED="1674661455693" MODIFIED="1674661461385"/>
+<node TEXT="integration" ID="ID_1473639377" CREATED="1674661462444" MODIFIED="1674661486900"/>
+</node>
+<node TEXT="Org structures" ID="ID_1620778403" CREATED="1674660271543" MODIFIED="1675260590660">
 <node TEXT="tribes" ID="ID_1815228939" CREATED="1674660273318" MODIFIED="1674660277028">
 <node TEXT="squads" ID="ID_1273729442" CREATED="1674660278734" MODIFIED="1674660280691"/>
 <node TEXT="prod oriented" ID="ID_704195985" CREATED="1674660282300" MODIFIED="1674660287630"/>
@@ -546,30 +562,6 @@
 <node TEXT="some central agreement on governance" ID="ID_720607977" CREATED="1674660563709" MODIFIED="1674660587618">
 <node TEXT="community/federated" ID="ID_403442647" CREATED="1674660592030" MODIFIED="1674660595401"/>
 </node>
-</node>
-</node>
-<node TEXT="product owners that deliver services" ID="ID_449741975" CREATED="1674659906289" MODIFIED="1674659911132">
-<node TEXT="it services for business service" ID="ID_1122987347" CREATED="1674659915071" MODIFIED="1674659920092">
-<node TEXT="business consumes service" ID="ID_292419678" CREATED="1674659926447" MODIFIED="1674659929950"/>
-<node TEXT="sla" ID="ID_378140993" CREATED="1674659935805" MODIFIED="1674659936536"/>
-</node>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="j" ID="ID_583315770" CREATED="1674659395818" MODIFIED="1674659397755">
-<node TEXT="develop and run software for other banks" ID="ID_260823931" CREATED="1674659408848" MODIFIED="1674659471050"/>
-<node TEXT="digitilization partner" ID="ID_1638177155" CREATED="1674659505176" MODIFIED="1674659508586"/>
-</node>
-<node TEXT="environments" ID="ID_436298526" CREATED="1674660513342" MODIFIED="1674660517773">
-<node TEXT="private cloud" ID="ID_564920295" CREATED="1674660503142" MODIFIED="1674660505675"/>
-<node TEXT="public cloud" ID="ID_988028907" CREATED="1674660505893" MODIFIED="1674660507910"/>
-<node TEXT="hybrid" ID="ID_990318069" CREATED="1674660508078" MODIFIED="1674660509450"/>
-</node>
-<node TEXT="flexibility to provide tools in way they want it" ID="ID_1159240794" CREATED="1674660694688" MODIFIED="1674660705963"/>
-<node TEXT="scenario" ID="ID_1698122780" CREATED="1674661439900" MODIFIED="1674661442224">
-<node TEXT="scalability/ responsiveness" ID="ID_1817751445" CREATED="1674661455693" MODIFIED="1674661461385"/>
-<node TEXT="integration" ID="ID_1473639377" CREATED="1674661462444" MODIFIED="1674661486900"/>
 </node>
 </node>
 <node TEXT="needs" ID="ID_1885118239" CREATED="1674660804181" MODIFIED="1674660805483">
@@ -589,6 +581,12 @@
 </node>
 <node TEXT="J: openshift in azure" ID="ID_767355107" CREATED="1674661139988" MODIFIED="1674661146851"/>
 <node TEXT="openshift on premise" ID="ID_1079078664" CREATED="1674661149029" MODIFIED="1674661156985"/>
+</node>
+</node>
+<node TEXT="Task: Create a definition of high level objective" STYLE_REF="Task" ID="ID_311899210" CREATED="1674635714566" MODIFIED="1674643341035">
+<node TEXT="chassis model" ID="ID_1192465909" CREATED="1674659275907" MODIFIED="1674659278530">
+<node TEXT="self governed. (interaction with platform)" ID="ID_1236223701" CREATED="1674659251990" MODIFIED="1674659271000"/>
+</node>
 </node>
 </node>
 <node TEXT="Requirements" POSITION="left" ID="B0C6E606-B410-47EC-8FCA-02A1C0C499C9" CREATED="1673977222000" MODIFIED="1674485487765" STYLE="bubble">
